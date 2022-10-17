@@ -4,7 +4,7 @@ const updateDisplay = (displayValue) => {
 };
 
 // Initial display value
-const displayText = document.querySelector('.display-text');
+const displayText = document.querySelector('#display-div');
 let displayValue = '0';
 updateDisplay(displayValue);
 // Numbered button handler

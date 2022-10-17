@@ -1,9 +1,36 @@
 :root {
-    border: solid red 2px;
+    text-align: center;
     margin: 0;
+    font-family: monospace;
 }
 
 #main-container {
-    border: solid blue 2px;
-    height: 500px;
+    display: flex;
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#calculator-container {
+    background-color: black;
+    border: 10px solid red;
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    gap: 2px;
+}
+
+#display-div {
+    grid-column: 1 / -1;
+    background-color: white;
+}
+
+.button__zero {
+}
+
+button {
 }
