@@ -1,0 +1,9 @@
+:root {
+    border: solid red 2px;
+    margin: 0;
+}
+
+#main-container {
+    border: solid blue 2px;
+    height: 500px;
+}
