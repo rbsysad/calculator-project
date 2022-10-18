@@ -57,6 +57,10 @@
   background-color: gray;
 }
 
+.btn__operator:focus {
+  background-color: rgb(170, 170, 170);
+}
+
 .btn__zero {
   grid-column: span 2;
 }
